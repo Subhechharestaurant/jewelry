@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title >Ring Product</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="pendant.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h3 style= "text-align:center;"><strong>Ring Product Page</strong></h3>
+		<div class="navbar">
+   <div class= "logo">
+   <img src= "images/logo.jpeg" width= "125px">
+   </div>
+   <nav>
+   <ul>
+		<li><a href="indexx.html">Home</a></li>
+		<li><a href="PendantProduct.html">Pendant Product</a></li>
+		<li><a href="EarringProduct.html">Earring Product</a></li>
+		<li><a href="NecklaceProduct.html">Necklace Product</a></li>
+		
+		</ul>
+		</nav>
+		  <img src="images/cart.png" width="30px" height="30px">
+		</div>
+
+        <div class="row">
+            <div class="col-md-3" style="background-color:  #F5DADF;">
+              <br><br>
+            </div>
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>ID</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>1</td><!-- Product ID -->
+                        <td>Sixteen Stone Ring 1.14 ct tw Round-cut 18K White Gold and Platinum</td><!-- Product Name -->
+                        <td>
+                            <img src="images/sixteenring.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$11,200.00</td><!-- Product Price -->
+                    </tr>
+                    <tr>
+                        <td>2</td><!-- Product ID -->
+                        <td>Vigne Ring 2.65 ct tw Round and Marquise-cut 18K White Gold and Platinum</td><!-- Product Name -->
+                        <td>
+                            <img src="images/vignering.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$32,000.00</td><!-- Product Price -->
+                    </tr>
+                    <tr>
+                        <td>3</td><!-- Product ID -->
+                        <td>Alternating Ring 2CT tw Round and Marquise-cut Diamond in Platinum </td><!-- Product Name -->
+                        <td>
+                            <img src="images/alternatingring.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$18,500.00</td><!-- Product Price -->
+                    </tr>
+					 <tr>
+                        <td>4</td><!-- Product ID -->
+                        <td>Band Ring 2.34CT tw Round and Marquise-cut Diamond in Platinum </td><!-- Product Name -->
+                        <td>
+                            <img src="images/bandring.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$23,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>5</td><!-- Product ID -->
+                        <td>True Wide Ring 0.99CT TW Round-cut Diamond 18K White Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/widering.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$6,800.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>6</td><!-- Product ID -->
+                        <td>Wide Pavé Diamond Ring 0.57CT TW Round-cut Diamond 18K White Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/pavering.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$8,400.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>7</td><!-- Product ID -->
+                        <td>Rope Two-row Ring 0.30CT TW Round-cut Diamond in Platinum and 18K White Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/ropering.jpeg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$5,700.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>8</td><!-- Product ID -->
+                        <td>Five Row Ring 0.90ct tw Round-cut Diamond 18K White Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/fivering.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$8,700.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>9</td><!-- Product ID -->
+                        <td>Paloma's Melody Ring 4.30ct tw 18K White Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/palomaring.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$36,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>10</td><!-- Product ID -->
+                        <td>Emerald-cut Engagement Ring 2 ct Diamond with a Pavé Diamond Platinum Band </td><!-- Product Name -->
+                        <td>
+                            <img src="images/solitairering.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$33,500.00</td><!-- Product Price -->
+                    </tr>
+                </table>
+            </div>
+			   <div class="col-md-3" style="background-color: #F5DADF;">
+                <br><br>
+            </div>
+           
+        <script>
+            function createProdTable(){
+                var prodids = [1,2,3,4,5];
+                //             0 1 2 3 4
+                
+                // Array of descriptions
+                var prod_desc = [
+                    "Dell - Inspiron 3511 15.6\" Touch Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Black",
+                    "Laptop 2",
+                    "Laptop 3",
+                    "Laptop 4",
+                    "Laptop 5"];
+                
+                // Array of images
+                var prod_image = [
+                    "images/laptop1.jpeg",
+                    "images/laptop2.jpeg",
+                    "images/laptop3.jpeg",
+                    "images/laptop4.jpeg",
+                    "images/laptop5.jpeg"
+                ];
+                
+                // Array of prices
+                var prod_price = [
+                    100,
+                    200,
+                    300,
+                    400,
+                    500
+                ];
+                
+                var tbl_row = "";
+                
+                for(var i = 0; i < prodids.length; i++){
+                    console.log("Current ID: " + prodids[i]);
+                    tbl_row += "<tr>";
+                    tbl_row += "<td>" + prodids[i] + "</td>";
+                    tbl_row += "<td>" + prod_desc[i] + "</td>";
+                    tbl_row += "<td><img src=\"" + prod_image[i] + "\" alt='" + prod_desc[i] + "'></td>";
+                    tbl_row += "<td>" + prod_price[i] + "</td>";
+                    tbl_row += "</tr>";
+                    
+                }
+                
+                document.getElementById("products_table").innerHTML = tbl_row;
+                
+            }
+            
+            window.onload = createProdTable();
+        </script>
+
+
+
+    </body>
+</html>

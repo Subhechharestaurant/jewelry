@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title >Necklace Product</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="pendant.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h3 style= "text-align:center;"><strong>Necklace Product Page</strong></h3>
+		<div class="navbar">
+   <div class= "logo">
+   <img src= "images/logo.jpeg" width= "125px">
+   </div>
+   <nav>
+   <ul>
+		<li><a href="indexx.html">Home</a></li>
+		<li><a href="PendantProduct.html">Pendant Product</a></li>
+		<li><a href="RingProduct.html">Ring Product</a></li>
+		<li><a href="EarringProduct.html">Earring Product</a></li>
+		
+		</ul>
+		</nav>
+		  <img src="images/cart.png" width="30px" height="30px">
+		</div>
+
+        <div class="row">
+            <div class="col-md-3" style="background-color:  #F5DADF;">
+              <br><br>
+            </div>
+            <div class="col-md-6">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>ID</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>1</td><!-- Product ID -->
+                        <td>Alternating Graduated Necklace 12.72 ct tw Marquise and Round-cut Diamond in Platinum</td><!-- Product Name -->
+                        <td>
+                            <img src="images/graduatednecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$87,000.00</td><!-- Product Price -->
+                    </tr>
+                    <tr>
+                        <td>2</td><!-- Product ID -->
+                        <td>Lariat Necklace 2 ct tw Round-cut 18K Rose Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/lariatnecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$3,400.00</td><!-- Product Price -->
+                    </tr>
+                    <tr>
+                        <td>3</td><!-- Product ID -->
+                        <td>TI Diamond Necklace 12.22CT tw Round-cut Diamond 18K White Gold </td><!-- Product Name -->
+                        <td>
+                            <img src="images/tifnecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$185,000.00</td><!-- Product Price -->
+                    </tr>
+					 <tr>
+                        <td>4</td><!-- Product ID -->
+                        <td>Mixed Cluster Necklace 15.85CT tw Round, Pear, Marquise-cut Diamond in Platinum </td><!-- Product Name -->
+                        <td>
+                            <img src="images/mixednecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$130,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>5</td><!-- Product ID -->
+                        <td>Graduated Line Necklace 10.18CT TW Round-cut Diamond in Platinum</td><!-- Product Name -->
+                        <td>
+                            <img src="images/linenecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$66,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>6</td><!-- Product ID -->
+                        <td>Diamonds by the Yard® Necklace 14.53CT TW Round-cut Diamond 18K White Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/yardnecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$82,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>7</td><!-- Product ID -->
+                        <td>Diamonds by the Yard® Necklace 2.70CT TW Round-cut Diamond in Platinum</td><!-- Product Name -->
+                        <td>
+                            <img src="images/dotnecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$22,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>8</td><!-- Product ID -->
+                        <td>Graduated Link Necklace 9.07ct tw Round-cut Diamond 18K Rose Gold</td><!-- Product Name -->
+                        <td>
+                            <img src="images/linknecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$67,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>9</td><!-- Product ID -->
+                        <td>Bypass Necklace 7.20t tw 18K Yellow Gold and Platinum</td><!-- Product Name -->
+                        <td>
+                            <img src="images/bypassnecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$57,000.00</td><!-- Product Price -->
+                    </tr>
+					<tr>
+                        <td>10</td><!-- Product ID -->
+                        <td>Wave Necklace 0.57ct Diamond 18K Rose Gold </td><!-- Product Name -->
+                        <td>
+                            <img src="images/wavenecklace.jpg" width= "125px">
+                        </td><!-- Product Image -->
+                        <td>$10,500.00</td><!-- Product Price -->
+                    </tr>
+                </table>
+            </div>
+			   <div class="col-md-3" style="background-color: #F5DADF;">
+                <br><br>
+            </div>
+           
+        <script>
+            function createProdTable(){
+                var prodids = [1,2,3,4,5];
+                //             0 1 2 3 4
+                
+                // Array of descriptions
+                var prod_desc = [
+                    "Dell - Inspiron 3511 15.6\" Touch Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Black",
+                    "Laptop 2",
+                    "Laptop 3",
+                    "Laptop 4",
+                    "Laptop 5"];
+                
+                // Array of images
+                var prod_image = [
+                    "images/laptop1.jpeg",
+                    "images/laptop2.jpeg",
+                    "images/laptop3.jpeg",
+                    "images/laptop4.jpeg",
+                    "images/laptop5.jpeg"
+                ];
+                
+                // Array of prices
+                var prod_price = [
+                    100,
+                    200,
+                    300,
+                    400,
+                    500
+                ];
+                
+                var tbl_row = "";
+                
+                for(var i = 0; i < prodids.length; i++){
+                    console.log("Current ID: " + prodids[i]);
+                    tbl_row += "<tr>";
+                    tbl_row += "<td>" + prodids[i] + "</td>";
+                    tbl_row += "<td>" + prod_desc[i] + "</td>";
+                    tbl_row += "<td><img src=\"" + prod_image[i] + "\" alt='" + prod_desc[i] + "'></td>";
+                    tbl_row += "<td>" + prod_price[i] + "</td>";
+                    tbl_row += "</tr>";
+                    
+                }
+                
+                document.getElementById("products_table").innerHTML = tbl_row;
+                
+            }
+            
+            window.onload = createProdTable();
+        </script>
+
+
+
+    </body>
+</html>
